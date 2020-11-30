@@ -1,0 +1,70 @@
+#header {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+}
+
+#header-container img{
+    height: 10vw;
+    /*margin-top: 1vw;*/
+}
+
+#header-container h2 {
+    font-weight: normal;
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+}
+
+#channels {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.channel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.channel-title {
+    display: flex;
+    align-items: center;
+}
+
+.channel-title h4{
+    margin: 0 0 0 5pt;
+    font-size: 5vw;
+}
+
+.channel .channel-icon {
+    height: 5vw;
+}
+
+.channel #wechat-qrcode {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+}
+
+.channel a {
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+    color: #005cbf;
+}
+
+.hint {
+    margin: 0;
+    font-size: 3vw;
+}
